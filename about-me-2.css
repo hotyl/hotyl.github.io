@@ -1,0 +1,110 @@
+body {
+    background-color:#FFFDD0;
+}
+
+.header-2 {
+    text-align:center;
+    font-size:35px;
+    font-family:"Courier New";
+    color:rgb(52,43,30);
+    background-color:rgba(89,66,34,0.3);
+}
+
+p {
+    font-size:25px;
+    font-family:"Slabo 27px", serif;
+    color:brown;
+    line-height:35px;
+}
+
+ul {
+    font-size:20px;
+    font-family:"Lora", serif;
+    color:#996515;
+    line-height:30px;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #4C2F27;
+}
+
+a:visited {
+    color: #003A6C;
+}
+
+.city {
+    width: 25%;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.information {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.top-title {
+    font-family:"Raleway",Sans-Serif;
+    font-size:50px;
+    text-align:center;
+    background-color:#AB381F;
+    border: 4px solid black;
+    margin:-8px;
+    padding:10px 10px 15px 10px;
+}
+
+.top-search-bar {
+    list-style-type: none;
+    margin: -11px -8px -11px -11px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.top-search-bar-item {
+    float:left;
+}
+
+.top-search-bar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-search-bar-item a:hover {
+    background-color: #111;
+}
+
+.header {
+    border: double #7C0A02;
+    padding: 0 30px 30px 30px;
+    margin-top: 0;
+}
+
+.header-1 {
+    font-size:50px;
+    font-family:"Garamond";
+    color:#AB381F;
+}
+
+.profile {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
