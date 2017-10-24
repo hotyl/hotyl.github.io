@@ -1,0 +1,53 @@
+body {
+    background-color:#FFFDD0;
+}
+
+h1 {
+    font-family:"Raleway",Sans-Serif;
+    font-size:50px;
+    text-align:center;
+    background-color:#AB381F;
+    border: 4px solid black;
+    margin:-8px;
+    padding:10px 10px 15px 10px;
+}
+
+h2 {
+    text-align:center;
+    font-family:"Titillium Web",Sans;
+    text-decoration:underline;
+    font-size:30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -11px -8px -11px -11px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+table, tr, th, td {
+    border:1px solid black;
+    border-collapse:collapse;
+}
+
+th, td {
+    padding:15px;
+}
