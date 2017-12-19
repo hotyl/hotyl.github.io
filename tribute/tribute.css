@@ -1,0 +1,31 @@
+body {
+    font-family: "Share Tech Mono", monospace;
+    text-align: center;
+    background-color: #3B444B;
+}
+
+h2 {
+    text-decoration: underline;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+img {
+    width: 80%;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: solid 1px black;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}

@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tribute to Metal Gear Solid</title>
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+        <meta http-equiv="content-type" content="text/html" ; charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial" - scale="1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="code.jss" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="tribute.css">
+        <link rel="stylesheet" type="text/js" href="code.js">
+    </head>
+    <body>
+        <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Metal_Gear_Solid_logo.png" alt="Metal Gear Solid logo">
+        <br>
+        <h2>Background Information</h2>
+        <p>"Metal Gear Solid" is an action-adventure stealth video game produced by Konami Computer Entertainment Japan and released for the PlayStation in 1998. The game was directed, produced, and co-written by series creator Hideo Kojima, and serves as a sequel to the MSX2 video games "Metal Gear" and "Metal Gear 2: Solid Snake," which Kojima also wrote and directed.</p>
+        <br>
+        <script>
+            $(document).ready(function(){
+                $("#flip").click(function(){
+                    $("#panel").slideToggle();
+                });
+            });
+        </script>
+        <div id="flip">Solid Snake</div>
+        <div id="panel">The main character of the game.</div>
+    </body>
+</html>
