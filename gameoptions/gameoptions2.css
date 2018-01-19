@@ -1,0 +1,27 @@
+.q1, .q2, .q3, .q1-choice, .q2-choice, .q3-choice{
+    display: none;
+}
+
+body{
+    background-color: #000000;
+}
+
+h1, h3, h5{
+    color: #ff5722;
+}
+
+.title{
+    background-color: #607d8b;
+}
+
+.sidebar{
+    background-color: #9e9e9e;
+}
+
+ol, li, ul{
+    color: #ffffff;
+}
+
+.narrative{
+    color: #ffffff;
+}
